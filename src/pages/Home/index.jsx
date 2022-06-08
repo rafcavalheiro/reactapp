@@ -12,9 +12,9 @@ import { Card } from '../../components/Card'
       <input type="text" placeholder="Digite o nome..."/>
       <button type="button"> Adicionar </button>
 
-      <Card />
-      <Card />
-      <Card />
+      <Card name = "Rafael Cavalheiro" time="16:41:25"/>
+      <Card name = "João Vitor Moraes" time="16:43:25"/>
+      <Card name = "Bruce João" time="16:45:25"/>
       
     </div>
     
