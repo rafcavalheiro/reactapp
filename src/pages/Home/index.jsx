@@ -23,9 +23,17 @@ import { Card } from '../../components/Card'
 
   return (
     
-    <div className="container">
+    <div className="container">      
+    
+    <header>
+    <h1>Lista de Presença</h1>
 
-      <h1>Nome: {studentName}</h1>
+    <div>
+      <strong>Rafael</strong>
+      <img src="https://github.com/rafcavalheiro.png" alt="Foto de Perfil" />
+    </div>
+    </header>
+      
       <input type="text" 
       placeholder="Digite o nome..."
       onChange={ e => setStudentName(e.target.value)}/>
@@ -35,7 +43,12 @@ import { Card } from '../../components/Card'
       </button>
 
       {
-        students.map(student =>  <Card name = {student.name} time= {student.time} />)       
+        students.map(student => (<Card 
+          key = {student.key}
+          name = {student.name} 
+          time= {student.time} 
+          />)
+        )        
       }      
       
       
