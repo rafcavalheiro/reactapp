@@ -1,5 +1,7 @@
 import './styles.css'
 
+import { Card } from '../../components/Card'
+
  export function Home() {   
 
   return (
@@ -8,7 +10,11 @@ import './styles.css'
 
       <h1>Lista de presença</h1>
       <input type="text" placeholder="Digite o nome..."/>
-      <button type="button"> Adicionar</button>
+      <button type="button"> Adicionar </button>
+
+      <Card />
+      <Card />
+      <Card />
       
     </div>
     
