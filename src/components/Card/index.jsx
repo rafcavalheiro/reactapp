@@ -4,7 +4,7 @@ export function Card (){
     return (
         <div className="card">
             <strong>João Vitor T Moraes</strong>
-            <small>15:45:36</small>
+            <small>15:45:30</small>
         </div>
     )
 }
